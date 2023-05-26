@@ -1,0 +1,106 @@
+<!--You can set up a template by typing doc -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic html</title>
+</head>
+<body>
+
+    <!---Basic tags - heading, paragraph etc.-->
+
+    <h1>
+        This is a heading!
+    </h1>
+
+    <h2>
+        You can use the doc keyword in VS Code to auto generate an html template
+    </h2>
+
+    <p>
+        This is a paragraph - in the paragraph below I used the lorem keyword to 
+        generate some placeholder text
+    </p>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic temporibus 
+        quibusdam rem. Soluta, placeat. Iure fuga delectus tempora blanditiis placeat. 
+        Aperiam facere voluptatibus id repudiandae aliquid aut at veritatis amet.
+    </p>
+
+    <!---Creating Lists-->
+
+    <ul>
+        <li>This is an unordered list</li>
+        <li>It uses the ul tag to start the list and the li tag to add items</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+            <ol>
+                <li>This is ordered list nested in the unordered list.</li>
+                <li>It uses the ol tag to start the list and the li tag to add items</li>
+            </ol>
+        <li>Last item</li>
+    </ul>
+
+    <!---Using Div-->
+
+    <div style="color:red">
+        <p>These two paragraphs are in div (division) 1</p>
+        <p>This means that we can create a class and apply a style to both. </p>
+    </div>
+    
+    <div>
+        <p>This paragraph is in div 2. And doesn't have the above CSS styles applied to it!</p>
+    </div>
+
+    <div>
+        <p>This paragraph shows <span style="color:blue">how a span container</span> can 
+            be used to apply styles within another tag 
+        </p>
+    </div>
+
+    <p>The image tag and the Anchor tags (linking to other web pages) need attributes to 
+        point the html to the content.
+    </p>
+
+    <!---Adding a link-->
+
+    <div>
+        <a href="https://www.google.com">Google to find image!</a>
+    </div>
+
+    <!---Adding an image-->
+
+    <div>
+        <img 
+        src="django_reinhart.jpeg" alt="Can't find image"
+        width="20%"
+        />
+    </div>
+
+
+    <!---Adding a Table-->
+
+    <table border="1">
+        <thead >
+            <th>Col 1</th>
+            <th>Col 2</th>
+            <th>Col 3</th>
+        </thead>
+        <tr>
+            <td>Entry into Row 1, Column 1</td>
+            <td>Entry into Row 1, Column 2</td>
+            <td>Entry into Row 1, Column 3</td>
+        </tr>
+        <tr>
+            <td>Entry into Row 1, Column 1</td>
+            <td><span style="color:aqua">N/A</span></td>
+            <td>Entry into Row 1, Column 3</td>
+        </tr>
+    </table>
+
+    
+
+</body>
+</html>

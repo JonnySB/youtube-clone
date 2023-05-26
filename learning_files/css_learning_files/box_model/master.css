@@ -1,0 +1,16 @@
+/*Classes should be used more than once*/
+
+
+#one{
+    text-align: center;
+    border: 10px solid blue;
+    margin-left: 50px;
+    margin-bottom: 100px;
+}
+
+#two{
+    text-align: center;
+    border: 60px solid red;
+    padding: 20px;
+    margin-right: 300px;
+}

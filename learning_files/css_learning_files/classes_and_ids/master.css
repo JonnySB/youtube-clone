@@ -1,0 +1,15 @@
+/*Classes should be used more than once*/
+.my_class{
+    color:red;
+}
+
+
+/*IDs are only used once*/
+#one{
+    color:blue;
+}
+
+
+#two{
+    color:purple;
+}

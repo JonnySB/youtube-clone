@@ -1,0 +1,21 @@
+/*Classes should be used more than once*/
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size:100%;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size:3em;
+}
+
+h2{
+    font-size: 1em; /*1em = 16px*/
+}
+
+p{
+    font-size:10px;
+}

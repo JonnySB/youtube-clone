@@ -1,0 +1,31 @@
+/*This shows the rule of specificity in play. I.e styles will be taken from the lowest scope.*/
+
+/*body has the highest scope*/
+body{
+    background-color: rgb(133, 162, 216);
+}
+
+/*div sit within the body and so has lower scope*/
+div{
+    color: black;
+    background-color:chartreuse;
+    border-color: blue;
+    border-width: 10px;
+    border-style: dotted;
+}
+
+/*p sits within div and so has lower scope*/
+p{
+    color:darkred;
+}
+
+/*span sits within the paragraph and so has lower scope*/
+span{
+    background-color: red;
+    color: black
+}
+
+/*class is the lowest scope*/
+.divTextClass{
+    color: white
+}
